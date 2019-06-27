@@ -14,19 +14,22 @@ In this project I create a simulation world in **Gazebo** which interacts with *
 ## Directory Strcture
 The sample simulation world folder has the following directory structure:
 
-    .Project1                          # Build My World Project 
+    .myrobot                          # Build My World Project 
     ├── model                          # Model files 
-    │   ├── Building
+    │   ├── Sensor_mobile
     │   │   ├── model.config
     │   │   ├── model.sdf
-    │   ├── HumanoidRobot
+    │   ├── simple_arm_bot
     │   │   ├── model.config
     │   │   ├── model.sdf
     ├── script                         # Gazebo World plugin C++ script      
-    │   ├── welcome_message.cpp
+    │   ├── hello.cpp
     ├── world                          # Gazebo main World containing models 
-    │   ├── UdacityOffice.world
-    ├── CMakeLists.txt                 # Link C++ code to libraries 
+    │   ├── world2.sdf
+    │   ├── model.config
+    ├── build
+    ├── [MakeLists.txt](myrobot/CMakeLists.txt)  libraries s     
     └──            
 
+## Launch The Project
 
