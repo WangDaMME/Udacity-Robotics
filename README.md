@@ -31,5 +31,4 @@ The sample simulation world folder has the following directory structure:
     ├── [MakeLists.txt](https://github.com/WangDaMME/Udacity-Robotics/blob/master/myrobot/CMakeLists.txt)  libraries s     
     └──            
 
-## Launch The Project
 
