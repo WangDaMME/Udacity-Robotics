@@ -14,7 +14,7 @@ In this project I create a simulation world in **Gazebo** which interacts with *
 ## Directory Strcture
 The sample simulation world folder has the following directory structure:
 
-    .myrobot                          # Build My World Project 
+    .myrobot                           # Build My World Project 
     ├── model                          # Model files 
     │   ├── Sensor_mobile
     │   │   ├── model.config
