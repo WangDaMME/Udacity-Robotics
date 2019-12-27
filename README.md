@@ -17,18 +17,17 @@ The sample simulation world folder has the following directory structure:
     .myrobot                           # Build My World Project 
     ├── model                          # Model files 
     │   ├── Sensor_mobile
-    │   │   ├── model.config
-    │   │   ├── model.sdf
+    │   │   ├── model.config          
+    │   │   ├── model.sdf              # The world file si formatted using SDF, Simulation Description Format
     │   ├── simple_arm_bot
     │   │   ├── model.config
-    │   │   ├── model.sdf
+    │   │   ├── model.sdf              # joint types,links, parent-child, poses
     ├── script                         # Gazebo World plugin C++ script      
-    │   ├── hello.cpp
+    │   ├── hello.cpp                  # To interact with a world, model, sensor in Gazebo, you need plugin.
     ├── world                          # Gazebo main World containing models 
     │   ├── world2.sdf
     │   ├── model.config
     ├── build
-    ├── [MakeLists.txt](https://github.com/WangDaMME/Udacity-Robotics/blob/master/myrobot/CMakeLists.txt)  libraries s     
-    └──            
+    ├── MakeLists.txt
 
 
