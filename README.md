@@ -28,6 +28,6 @@ The sample simulation world folder has the following directory structure:
     │   ├── world2.sdf
     │   ├── model.config
     ├── build
-    ├── MakeLists.txt
+    ├── MakeLists.txt                  # Link Libraries 
 
 
